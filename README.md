@@ -1,0 +1,1 @@
+Cassandra Temperature Manager
