@@ -6,4 +6,9 @@
     <RootNamespace>Cassandra_Temperature_Manager</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ArduinoDriver" Version="2.4.6" />
+    <PackageReference Include="CassandraCSharpDriver" Version="3.12.0" />
+  </ItemGroup>
+
 </Project>
