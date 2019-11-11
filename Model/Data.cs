@@ -1,5 +1,10 @@
 public class Temperature{
-    float T;
+    float temp;
+    static int id = 0;
+    public float Temp { get => temp; set => temp = value; }
+    public static int Id { get => ++id; set => id = value; }
 
-    public float T1 { get => T; set => T = value; }
+    public Temperature(float temp){
+        this.temp = temp;
+    }
 }

@@ -4,5 +4,16 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"sqltools.connections": [
+			{
+				"dialect": "Cassandra",
+				"name": "TemperatureDatabase",
+				"password": "cassandra",
+				"port": 9042,
+				"server": "localhost",
+				"username": "cassandra"
+			}
+		]
+	}
 }
