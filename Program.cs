@@ -8,7 +8,8 @@ namespace Cassandra_Temperature_Manager
         {
             ArduinoGetter ard = ArduinoGetter.Singleton();
             DataFiller data = DataFiller.Singleton();
-            while (true)
+            DateTime stopTime = DateTime.Now.AddHours(3); 
+            while (DateTime.Now < stopTime)
                 ArduinoGetter.GetData();
         }
     }

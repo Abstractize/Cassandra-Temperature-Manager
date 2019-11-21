@@ -17,4 +17,5 @@ void loop() {
  
   //Serial.print("Current Temperature: ");
   Serial.println(temp);
+  delay(1000);
 }
